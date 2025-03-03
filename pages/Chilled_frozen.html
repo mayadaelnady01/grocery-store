@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chilled & Frozen section</title>
+    <style>
+        .head{
+            background-color: #b6ad76;
+        }
+    .navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #f0d332;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 2px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #f0d332;
+}
+ul li ul {
+display: none;
+position: absolute;
+z-index: 1;
+background-color:#b6ad76;
+}
+ul li ul li {
+ 
+  padding: 5px 16px;
+  margin: 10px ;
+}
+  ul li:hover ul{
+    display: block;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: #fff ;
+    border: 1px solid #f0d332;
+    margin-top: 13px;
+    color: rgb(0, 0, 0);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #f0d332;
+    border: 2px solid #f0d332;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+.srch::placeholder{
+    color: #000;
+}
+        .total_photos1{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1px;
+    row-gap: 1px;
+    margin-left: 7%;
+        }
+        .main{
+    background-color: #ebe4e4;
+        }
+        .image{
+            margin-top: 33%;
+        }
+        .price{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #007367;
+        }
+        .product_name{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .add{
+            background-color: #e2c20e;
+            border: 0;
+            border-radius: 100px;
+            padding:4%;
+            border-color: #e2c20e;
+        }   
+        .cate{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="navbar">
+            <div class="icon">
+              <h2 class="logo">SUN &nbsp;</h2>
+              <h4 class="cate">chilled & Frozen </h4>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="Sun.php">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="#">CATEGORIES</a>
+                        <ul>
+                          <li><a href="Chilled_frozen.html">Chilled & Frozen</a></li>
+                          <li><a href="Bakery.html">Bakery</a></li>
+                          <li><a href="Beverage.html">Beverage</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="chilled-cart.html">CART</a></li>
+                </ul>
+             </div>
+             <div class="search">
+                <input class="srch" type="search" name="" placeholder="find your products">
+                <a href="#"> <button class="btn">Search</button></a>
+              </div>
+             </div>
+             </div>
+        <div class="main">
+        <div class="total_photos1">
+        <div class="image">
+            <img src="Sausage.png" alt="this is Sausage" height="100px" width="150px"/>
+            <p class="product_name">Beef Sausage , 8 pieces</p>
+            <p class="price">48.50 EGP</p>
+            <button class="add">Add To Cart</button>
+        </div>
+        <div class="image">
+            <img src="meat.png" alt="this is meat" height="100px" width="150px"/>
+            <p class="product_name">Beef Meat pieces</p>
+            <p class="price">100.95 EGP</p>
+            <button class="add">Add To Cart</button>
+        </div>
+        <div class="image">
+            <img src="chicken-meat.png" alt="this is chicken" height="100px" width="150px"/>
+            <p class="product_name">Chicken 1.5 kgm</p>
+            <p class="price">21.55 EGP</p>
+            <button class="add">Add To Cart</button>
+        </div>
+        <div class="image">
+            <img src="Spring-Roll.png" alt="this is Spring rolls" height="100px" width="150px"/>
+            <p class="product_name">Spring rolls 5 pieces </p>
+            <p class="price">42.75 EGP</p>
+            <button class="add">Add To Cart</button></div>
+            <div class="image">
+                <img src="mozzeralla-cheese.png" alt="this is mozzeralla-cheese" height="100px" width="150px"/>
+                <p class="product_name">mozzeralla cheese 1 kgm </p>
+                <p class="price">42.75 EGP</p>
+                <button class="add">Add To Cart</button>
+                </div>
+                <div class="image">
+                    <img src="butter.webp" alt="this is butter" height="100px" width="150px"/>
+                    <p class="product_name">Butter 1 kgm </p>
+                    <p class="price">50.75 EGP</p>
+                    <button class="add">Add To Cart</button>
+                    </div>
+                    <div class="image">
+                        <img src="sliced_potatoes.png" alt="this is fries" height="120px" width="130px"/>
+                        <p class="product_name">sliced potatoes 1 kgm </p>
+                        <p class="price">49.25 EGP</p>
+                        <button class="add">Add To Cart</button>
+                        </div>
+                        <div class="image">
+                            <img src="burger.avif" alt="this is Burger" height="120px" width="130px"/>
+                            <p class="product_name">Beef Burger 12 pieces </p>
+                            <p class="price">70.25 EGP</p>
+                            <button class="add">Add To Cart</button>
+                            </div>
+                            <div class="image">
+                                <img src="chickenburger.png" alt="this is Chicken Burger" height="120px" width="130px"/>
+                                <p class="product_name">Chicken Burger 12 pieces </p>
+                                <p class="price">60.25 EGP</p>
+                                <button class="add">Add To Cart</button>
+                                </div>
+                </div>
+                
+        </div>
+        
+</body>
+</html>
