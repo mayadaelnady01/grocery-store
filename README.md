@@ -6,9 +6,9 @@ This project is a Grocery Store Web Application designed to provide an online sh
 
 # Technologies Used 🛠️
 
-Frontend: HTML, CSS, JavaScript.
-Backend: PHP (Handles server-side logic).
-Database: MySQL (Stores product details, orders, and user accounts).
+Frontend: HTML, CSS, JavaScript.</br>
+Backend: PHP (Handles server-side logic).</br>
+Database: MySQL (Stores product details, orders, and user accounts).</br>
 XAMPP (for development).
 
 
